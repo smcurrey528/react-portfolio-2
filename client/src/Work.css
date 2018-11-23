@@ -66,6 +66,11 @@ img, video, object {
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 a:-webkit-any-link {
     color: -webkit-link;
@@ -179,4 +184,14 @@ h3 {
 .page {
     position: relative;
     overflow: hidden;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
 }
