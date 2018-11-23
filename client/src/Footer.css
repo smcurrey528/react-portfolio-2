@@ -1,0 +1,97 @@
+.site-footer {
+    background-color: #f6f6f6;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media (min-width: 400px) {
+.container {
+    width: 85%;
+    padding: 0;
+}
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.site-footer-left, .site-footer-right {
+    float: left;
+    padding: 40px 10px 40px 0px;
+    width: 340px;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.nugget {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.25);
+    letter-spacing: 1.4px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.footer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.2px;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    margin-bottom: 35px;
+    margin-top: 20px;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 18px;
+    line-height: 31px;
+    color: #4f4f4f;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #A479BB;
+    text-decoration: none;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    fill: darkgray;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+:not(svg), :not(foreignObject) > svg {
+    transform-origin: 0px 0px 0px;
+}
