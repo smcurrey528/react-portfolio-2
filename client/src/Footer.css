@@ -57,7 +57,7 @@ div {
     vertical-align: baseline;
 }
 
-.footer {
+.technologies {
     margin-bottom: 20px;
     margin-top: 20px;
     letter-spacing: 0.2px;
@@ -66,9 +66,6 @@ div {
     line-height: 26px;
     color: rgba(0, 0, 0, 0.6);
     -webkit-font-smoothing: antialiased;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
 }
 
 p {
@@ -113,4 +110,15 @@ a svg {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 700px) {
+
+.foot {
+    width: 85%;
+    padding: 0;
+
+}
+
+
 }

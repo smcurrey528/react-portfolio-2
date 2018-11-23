@@ -2,17 +2,19 @@ import React,  {Component} from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import './About.css';
+import MapBox from './MapBox';
 
 class About extends Component {
   render() {
     return(
       <React.Fragment>
       <Nav/>
-      <div className="two-thirds column">
+      <div className="about">
       <span className="nugget">
               Places
             </span>
          <p> 🎸Nashville, TN ➡ 🇺🇸 Washington, D.C. ➡ 🍎New York City </p>
+         <MapBox/>
           <span className="nugget">
               A little about me
             </span>
@@ -21,7 +23,7 @@ class About extends Component {
             </p>
         </div>
 
-        <div>
+        <div className="hobbies">
           <span className="nugget">
               Hobbies
             </span>

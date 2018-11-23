@@ -1,17 +1,20 @@
 .headshot {
-  border-radius: 30%;
+  border-radius: 50%;
   position: relative;
+  width: 40%;
+  height: 40%;
 }
 
-.wrap {
+.total {
     margin: 20px auto;
     max-width: 1200px;
     overflow: hidden;
     -webkit-transition: .5s ease;
     transition: .5s ease;
+
 }
 
-.container {
+.all {
     position: relative;
     width: 100%;
     max-width: 700px;
@@ -21,7 +24,12 @@
 }
 
 .row {
-    display: block;
+
+    grid-area: "left";
+}
+
+.photod {
+  grid-area: "right";
 }
 
 .column, .columns {

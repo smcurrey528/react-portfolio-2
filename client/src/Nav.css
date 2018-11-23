@@ -116,10 +116,16 @@ a:hover {
   color: gray;
 }
 
-@media only screen and (max-width: 1085px) {
-body {
-    font-size: 16px;
+@media only screen and (max-width: 600px) {
+    .site-intro, .site-text{
+     width: 100%;
 }
+
+   .map {
+    width: 50%;
+    height: 50%;
+   }
+
 }
 
 

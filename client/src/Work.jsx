@@ -53,7 +53,7 @@ class Work extends Component {
 
 
 <br/><br/>
-  <section className="row">
+  <section className="skills">
 
     <div className="two-thirds column">
       <span className="nugget">Hi there</span>

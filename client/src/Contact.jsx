@@ -9,8 +9,8 @@ class Contact extends Component {
     return(
       <React.Fragment>
       <Nav/>
-      <div class="wrap">
-        <div class="container">
+      <div class="total">
+        <div class="all">
 <br/>
   <section class="row">
     <div class="one-third column">
@@ -37,22 +37,18 @@ class Contact extends Component {
     </section>
 
 
-  <section class="row">
-
-
-    <div class="three-fifths column">
-      <MapBox/>
-        <h3 class="overlay-title">Located in NYC</h3>
-      </div>
-
-
-
-    <div class="two-fifths column">
-      <div class="headshot">
-        <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/46511364_10213453921485195_6791832196928765952_n.jpg?_nc_cat=105&_nc_ht=scontent-iad3-1.xx&oh=626afcaddd2be3e61d602e455913a51f&oe=5CA90702"/>
+  <section class="photos">
+     <div class="two-fifths column">
+      <div>
+        <img  class="headshot" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/46511364_10213453921485195_6791832196928765952_n.jpg?_nc_cat=105&_nc_ht=scontent-iad3-1.xx&oh=626afcaddd2be3e61d602e455913a51f&oe=5CA90702"/>
         <h3 class="overlay-title">I also go by the nickname "Scurrey"</h3>
       </div>
     </div>
+
+
+
+
+
 
   </section>
 

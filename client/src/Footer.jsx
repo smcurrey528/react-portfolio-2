@@ -51,8 +51,9 @@ class Footer extends Component {
       <span className="nugget">
         Technologies
       </span>
-      <p className="footer">
-        I built this site with React, JavaScript, HTML, CSS Grid & Flexbox, MapBox API, <a href='https://reactstrap.github.io/'> ReactStrap </a> and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>—Design Inspiration from
+      <p className="technologies">
+        I built this site with React, JavaScript, HTML, CSS Grid & Flexbox, MapBox API, <a href='https://reactstrap.github.io/'> ReactStrap </a> and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>
+        —Design Inspiration from
           <a href="https://www.linkedin.com/in/jessiejren/" target="_blank">
             <svg viewBox="0 0 13.9 13.9">
             <polygon points="2,4 2,10.2 7,13.9 11.9,10.2 11.9,4 7,7.7   "></polygon>

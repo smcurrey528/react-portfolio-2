@@ -1,4 +1,38 @@
 .giphy {
-  width: 30%;
-  height: 30%;
+  width: 150px;
+  height: 150px;
+  display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.map {
+  padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hobbies {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+    }
 }

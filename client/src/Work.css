@@ -49,6 +49,24 @@ img, video, object {
 
 }
 
+.wrapper {
+    margin: 20px auto;
+    max-width: 1200px;
+    overflow: hidden;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -81,9 +99,13 @@ p {
 .column, .columns {
     margin-left: 4%;
 }
-.row {
+.skills {
     display: block;
 }
+}
+
+.skills {
+  display: inline-flex;
 }
 section {
 
