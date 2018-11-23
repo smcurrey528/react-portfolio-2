@@ -51,7 +51,7 @@ ul {
     position: relative;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 0 !important;
     z-index: 1;
     display: table;
     width: 100%;
@@ -66,7 +66,7 @@ ul {
     margin: 0 2em;
     font-family: Karla, Helvetica, sans-serif;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     letter-spacing: 0.2px;
     line-height: 16px;
     font-weight: bold;
@@ -78,7 +78,7 @@ ul {
 
 .site-menu-item a {
     display: inline-block;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     padding-bottom: 10px;
     border-bottom: 3px solid transparent;
     -webkit-transition: color .5s ease;
@@ -86,7 +86,6 @@ ul {
 }
 
 a {
-    color: #A479BB;
     text-decoration: none;
     transition: 200ms;
     transition-timing-function: ease-in-out;

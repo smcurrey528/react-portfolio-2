@@ -9,7 +9,7 @@
 
 
 @media (min-width: 400px) {
-.container {
+.foot {
     width: 85%;
     padding: 0;
 }
@@ -21,11 +21,12 @@
     clear: both;
 }
 
-.container {
+.foot {
+   display: inline-flex;
     position: relative;
     width: 100%;
     max-width: 700px;
-    margin: 0 auto;
+    margin-left: 30%;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -65,6 +66,9 @@ div {
     line-height: 26px;
     color: rgba(0, 0, 0, 0.6);
     -webkit-font-smoothing: antialiased;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
 }
 
 p {
@@ -100,4 +104,13 @@ a svg {
 
 :not(svg), :not(foreignObject) > svg {
     transform-origin: 0px 0px 0px;
+}
+
+.copyright {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
 }

@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return(
       <footer className="site-footer clearfix">
-  <div className="container">
+  <div className="foot">
 
     <div className="site-footer-left">
       <span className="nugget">
@@ -52,8 +52,8 @@ class Footer extends Component {
         Technologies
       </span>
       <p className="footer">
-        I built this site with React, JavaScript, HTML, CSS,<a href='https://reactstrap.github.io/'> ReactStrap </a> and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>—Design Inspiration from
-          <a href="http://jessieren.com/" target="_blank">
+        I built this site with React, JavaScript, HTML, CSS Grid & Flexbox, MapBox API, <a href='https://reactstrap.github.io/'> ReactStrap </a> and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>—Design Inspiration from
+          <a href="https://www.linkedin.com/in/jessiejren/" target="_blank">
             <svg viewBox="0 0 13.9 13.9">
             <polygon points="2,4 2,10.2 7,13.9 11.9,10.2 11.9,4 7,7.7   "></polygon>
             <rect fill="none" width="13.9" height="13.9"></rect>

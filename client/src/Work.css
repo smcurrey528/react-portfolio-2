@@ -45,6 +45,8 @@ img, video, object {
     position: relative;
     top: -40px;
     margin-bottom: -30px;
+    border-radius: 40%;
+
 }
 
 a:-webkit-any-link {
@@ -99,7 +101,60 @@ section {
     box-sizing: border-box;
 }
 
-.post-item-img-amazon {
-  padding: 20px;
-  background-color: mediumaquamarine;
+
+.subhead {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 28px;
+    display: block;
+}
+
+h2 {
+    font-family: Karla, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 44px;
+    font-weight: normal;
+}
+
+.thumb-nugget {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+
+.overlay-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 43%;
+    z-index: 100;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+h3 {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+
+
+.page {
+    position: relative;
+    overflow: hidden;
 }
