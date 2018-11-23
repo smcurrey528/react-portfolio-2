@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
+import './Footer.css';
 
 class Footer extends Component {
   render() {
     return(
-      <footer class="site-footer clearfix">
-  <div class="container">
+      <footer className="site-footer clearfix">
+  <div className="container">
 
-    <div class="site-footer-left">
-      <span class="nugget">
+    <div className="site-footer-left">
+      <span className="nugget">
         Drop me a line
       </span>
-      <p class="footer">
-        at <a href="mailto:curreysarah28@gmail.com">email</a><br/>
+      <p className="footer">
+        Send me an <a href="mailto:curreysarah28@gmail.com">email</a> or click the icons below <br/>
       </p>
 
       <a href="mailto:curreysarah28@gmail.com">
@@ -46,20 +47,20 @@ class Footer extends Component {
       </a>
     </div>
 
-    <div class="site-footer-right">
-      <span class="nugget">
+    <div className="site-footer-right">
+      <span className="nugget">
         Technologies
       </span>
-      <p class="footer">
-        I built this site with React, JavaScript, HTML, CSS, ReactStrap and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>—javascript assists from
-          <a href="http://frankyan.com" target="_blank">
+      <p className="footer">
+        I built this site with React, JavaScript, HTML, CSS,<a href='https://reactstrap.github.io/'> ReactStrap </a> and <a href="https://fonts.google.com/selection?selection.family=Karla|Vollkorn" target="blank">Google Fonts</a>—Design Inspiration from
+          <a href="http://jessieren.com/" target="_blank">
             <svg viewBox="0 0 13.9 13.9">
             <polygon points="2,4 2,10.2 7,13.9 11.9,10.2 11.9,4 7,7.7   "></polygon>
             <rect fill="none" width="13.9" height="13.9"></rect>
             </svg>
           </a>
       </p>
-      <span class="copyright">
+      <span className="copyright">
         © 2018 Sarah Currey
       </span>
     </div>

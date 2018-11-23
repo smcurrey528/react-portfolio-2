@@ -15,16 +15,16 @@ class Nav extends Component {
           <nav className="site-nav">
                     <ul className="site-menu site-menu-animated">
               <li className="site-menu-item category-blog">
-                <a href="/blog/">Work</a>
+                <a href="/">Work</a>
               </li>
               <li className="site-menu-item category-work">
-                <a href="/">Articles</a>
+                <a href="/articles/">Articles</a>
               </li>
               <li className="site-menu-item category-contact">
-                <a href="/contact/">About</a>
+                <a href="/about/">About</a>
               </li>
               <li className="site-menu-item category-shop">
-                <a href="/shop/">Chat</a>
+                <a href="/contact/">Chat</a>
               </li>
             </ul>
          </nav>

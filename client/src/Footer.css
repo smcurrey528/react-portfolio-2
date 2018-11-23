@@ -15,6 +15,12 @@
 }
 }
 
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .container {
     position: relative;
     width: 100%;
