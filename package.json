@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smcurrey528/react-portfolio-2.git"
+  },
+  "author": "Sarah Currey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smcurrey528/react-portfolio-2/issues"
+  },
+  "homepage": "https://github.com/smcurrey528/react-portfolio-2#readme"
+}
