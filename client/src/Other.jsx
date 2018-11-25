@@ -12,7 +12,7 @@ class Other extends Component {
       <div className="amazon">
       <header>
   <img class="logo" src="https://duaw26jehqd4r.cloudfront.net/items/2h0q0s3f1R1v1z1h0113/Image%202018-11-23%20at%205.25.01%20PM.png?X-CloudApp-Visitor-Id=6876e04c950b8195c72dd5652dbf34ac&v=f9b4b802"/>
-  <h1>Come Back Barack: Javascript Game<i>· Front-End Developer</i></h1>
+  <h1>Come Back Barack<i>· Front-End Developer</i></h1>
   <span class="thumb-nugget">September 2018</span>
   <br/>
   <span class="thumb-nugget"><a href="https://git.generalassemb.ly/smcurrey528/come-back-barack">View on GitHub </a></span>

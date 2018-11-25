@@ -7,9 +7,9 @@ class Nav extends Component {
         <React.Fragment>
           <div className="site-intro">
             <div className="site-text">
-             Hey I'm Sarah, an enthusiast of
+             Hey I'm Sarah, a full stack
              <br/>
-             Southern hospitality and Northern efficiency.
+             web developer based in NYC.
             </div>
           </div>
           <nav className="site-nav">

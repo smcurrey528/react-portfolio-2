@@ -13,7 +13,7 @@ class Work extends Component {
     <div className="post-list clearfix">
 
       <a className="post-item" href="/airbnb/">
-        <div className="post-item-img amazon"><img src="https://media.giphy.com/media/LVsQ0RdyFpvBZcPNLH/giphy.gif"/><h3 className="overlay-title">Front-End Developer</h3></div>
+        <div className="post-item-img other"><img src="https://media.giphy.com/media/LVsQ0RdyFpvBZcPNLH/giphy.gif"/><h3 className="overlay-title">Front-End Developer</h3></div>
         <div className="post-item-label">
           <center><div className="post-item-icon"><img src="https://i.imgur.com/4PAHoNj.png"/></div>
           <h2 className="subhead">Airbnb</h2>
