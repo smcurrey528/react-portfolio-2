@@ -8,10 +8,26 @@
 }
 
 
-@media (min-width: 400px) {
+@media (max-width: 680px) {
 .foot {
-    width: 85%;
+    width: 100%;
     padding: 0;
+    background-color: #f6f6f6;
+}
+.site-footer {
+  margin-left: -30%;
+  font-size: 3px !important;
+  display: flex;
+  width: 110%;
+  background-color: #f6f6f6;
+}
+.site-nav {
+  height: 30%;
+}
+.site-footer-left, .site-footer-right {
+  font-size: 6px !important;
+  background-color: #f6f6f6;
+
 }
 }
 

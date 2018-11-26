@@ -17,6 +17,12 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 680px) {
+  .amazon {
+    margin-left: -18%;
+  }
+  }
+
 
 h1 {
     font-family: Karla, Helvetica, sans-serif;
