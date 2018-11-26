@@ -28,21 +28,26 @@ class Airbnb extends Component {
 
   <div class="two-thirds column">
     <span class="nugget">Overview</span>
-    <p><a href="http://www.airbnb.com" target="_blank">Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world. I led and helped improve many parts of the holistic Evernote experience—from onboarding new users, to navigating and organizing content for current users, to completing checkout for new and existing customers. And now, I'm tackling the challenge of making Evernote Business the best product for teams. Brief, high-level case studies below:</p>
+    <p><a href="http://www.airbnb.com" target="_blank">
+     Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world.
+     I led a team of four to develop a full stack application of Airbnb's webpage,
+     where we created a backend with Express, Node, and PostgreSQL. My main role revolved around using React and Reactstrap to recreate
+     the front-end design and functionality of Airbnb.</p>
   </div>
 
 
   <div class="one-third column">
     <span class="nugget">Hats worn</span>
     <ul class="list">
-        <li>⛈&nbsp;&nbsp; Concepting</li>
-        <li>🗺&nbsp;&nbsp; Wireframing</li>
-        <li>💬&nbsp;&nbsp; Copywriting</li>
+
+        <li>✍&nbsp;&nbsp; Wireframing</li>
+        <li>💬&nbsp;&nbsp; PostgreSQL</li>
         <li>♻️&nbsp;&nbsp; Prototyping</li>
-        <li>👂🏽&nbsp;&nbsp; UX research</li>
-        <li>🔸&nbsp;&nbsp; Animation</li>
+        <li>🌺&nbsp;&nbsp; ReactStrap</li>
         <li>📢&nbsp;&nbsp; Visual design</li>
-        <li>🎲&nbsp;&nbsp; Hacky front-end dev</li>
+        <li>📈&nbsp;&nbsp; Project Management</li>
+        <li>💻&nbsp;&nbsp; React Front-end Dev</li>
+        <li>📤&nbsp;&nbsp; Backend Express</li>
       </ul>
   </div>
 
