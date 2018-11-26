@@ -1,13 +1,13 @@
 .headshot {
-  border-radius: 50%;
+  border-radius: 80px;
   position: relative;
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
+  margin-right: 5%;
 }
 
 .total {
-    margin: 20px auto;
-    max-width: 1200px;
+    margin-left: 20%;
     overflow: hidden;
     -webkit-transition: .5s ease;
     transition: .5s ease;
@@ -24,12 +24,11 @@
 }
 
 .row {
-
-    grid-area: "left";
+    display: inline-flex;
 }
 
 .photos {
-  grid-area: "right";
+
 }
 
 .column, .columns {
@@ -40,10 +39,10 @@
 
 @media (min-width: 550px) {
 .one-third.column {
-    width: 30.6666666667%;
+    width: 34%;
 }
 .two-thirds.column {
-    width: 65.3333333333%;
+    width: 65%;
 }
 .column, .columns {
     margin-left: 4%;

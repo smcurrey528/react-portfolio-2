@@ -9,7 +9,7 @@ class Airbnb extends Component {
       <React.Fragment>
       <Nav/>
       <div className="page">
-      <div className="firebnb">
+      <div className="amazon">
       <header>
   <img class="logo" src="https://i.imgur.com/4PAHoNj.png"/>
   <h1>Airbnb Remake<i>· Front-End Developer</i></h1>
