@@ -12,7 +12,7 @@ class BenAndJerry extends Component {
       <div className="icecream">
       <header>
   <img class="logo" src="https://pbs.twimg.com/profile_images/1250824905/3551598358_59ddb6d200.jpg"/>
-  <h1>Ben & Jerry Ice Cream<i>· Full Stack Developer</i></h1>
+  <h1>Ben & Jerry's Ice Cream<i>· Full Stack Developer</i></h1>
   <span class="thumb-nugget">November 2018</span>
   <br/>
   <span class="thumb-nugget"><a href="https://git.generalassemb.ly/smcurrey528/js-react-express-crud-hw">View on GitHub </a></span>
@@ -28,21 +28,20 @@ class BenAndJerry extends Component {
 
   <div class="two-thirds column">
     <span class="nugget">Overview</span>
-    <p><a href="http://www.airbnb.com" target="_blank">Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world. I led and helped improve many parts of the holistic Evernote experience—from onboarding new users, to navigating and organizing content for current users, to completing checkout for new and existing customers. And now, I'm tackling the challenge of making Evernote Business the best product for teams. Brief, high-level case studies below:</p>
+    <p>One of my favorite ice cream brands is <a href="https://www.benjerry.com/" target="_blank">
+    Ben & Jerry's </a> because who doesn't love ice cream?! This is a CRUD application where I built out the
+    front-end UI in React using an ice cream database backend. Feel free to click on the demo and add in an ice cream. 😊 </p>
   </div>
 
 
   <div class="one-third column">
     <span class="nugget">Hats worn</span>
     <ul class="list">
-        <li>⛈&nbsp;&nbsp; Concepting</li>
-        <li>🗺&nbsp;&nbsp; Wireframing</li>
-        <li>💬&nbsp;&nbsp; Copywriting</li>
-        <li>♻️&nbsp;&nbsp; Prototyping</li>
-        <li>👂🏽&nbsp;&nbsp; UX research</li>
-        <li>🔸&nbsp;&nbsp; Animation</li>
-        <li>📢&nbsp;&nbsp; Visual design</li>
-        <li>🎲&nbsp;&nbsp; Hacky front-end dev</li>
+        <li>💻&nbsp;&nbsp; React UI</li>
+        <li>📤&nbsp;&nbsp; Backend Express</li>
+        <li>💬&nbsp;&nbsp; PostgreSQL</li>
+
+
       </ul>
   </div>
 

@@ -28,21 +28,22 @@ class Other extends Component {
 
   <div class="two-thirds column">
     <span class="nugget">Overview</span>
-    <p><a href="http://www.airbnb.com" target="_blank">Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world. I led and helped improve many parts of the holistic Evernote experience—from onboarding new users, to navigating and organizing content for current users, to completing checkout for new and existing customers. And now, I'm tackling the challenge of making Evernote Business the best product for teams. Brief, high-level case studies below:</p>
+    <p>Inspired by the SNL skit, <a href="https://share.vidyard.com/watch/BqWnKgTpLjZzvvLA6D96EC" target="_blank"> "Come Back Barack" </a>, I created a game using vanilla JavaScript, HTML, CSS and Materialize.
+     "Come Back Barack" is an interactive clickable video game where the player will click to gain points and avoid the obstacles in order to win. The objective is to energize Obama so he will come back from vacation, but the user will need to catch "Liberal Snowflakes" to keep him energized. However, there are red "Make America Great Again" Hats that
+      are obstacles and if the user clicks on the red hat then Obama goes back on vacation.</p>
   </div>
 
 
   <div class="one-third column">
     <span class="nugget">Hats worn</span>
     <ul class="list">
-        <li>⛈&nbsp;&nbsp; Concepting</li>
-        <li>🗺&nbsp;&nbsp; Wireframing</li>
-        <li>💬&nbsp;&nbsp; Copywriting</li>
-        <li>♻️&nbsp;&nbsp; Prototyping</li>
-        <li>👂🏽&nbsp;&nbsp; UX research</li>
-        <li>🔸&nbsp;&nbsp; Animation</li>
+        <li>⭐&nbsp;&nbsp; Concepting</li>
+        <li>👓&nbsp;&nbsp; Wireframing</li>
+        <li>🔸&nbsp;&nbsp; CSS Animation</li>
         <li>📢&nbsp;&nbsp; Visual design</li>
-        <li>🎲&nbsp;&nbsp; Hacky front-end dev</li>
+        <li>💻&nbsp;&nbsp; Front-End Dev</li>
+        <li>💥&nbsp;&nbsp; Collision Detection</li>
+
       </ul>
   </div>
 
@@ -69,21 +70,22 @@ class Other extends Component {
 
   <div class="two-thirds column">
     <span class="nugget">Overview</span>
-    <p><a href="http://www.airbnb.com" target="_blank">Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world. I led and helped improve many parts of the holistic Evernote experience—from onboarding new users, to navigating and organizing content for current users, to completing checkout for new and existing customers. And now, I'm tackling the challenge of making Evernote Business the best product for teams. Brief, high-level case studies below:</p>
+    <p>Using the <a href="https://teleport.org/" target="_blank"> Teleport API, </a>
+    I created QualLi which is a web application that can show you the quality of life scores
+    of over 300 world-class cities. The data visualization is created with JavaScript library, D3, and React
+    Components. Try searching New York, London, and Tokyo to see where they score! </p>
   </div>
 
 
   <div class="one-third column">
     <span class="nugget">Hats worn</span>
     <ul class="list">
-        <li>⛈&nbsp;&nbsp; Concepting</li>
-        <li>🗺&nbsp;&nbsp; Wireframing</li>
-        <li>💬&nbsp;&nbsp; Copywriting</li>
-        <li>♻️&nbsp;&nbsp; Prototyping</li>
-        <li>👂🏽&nbsp;&nbsp; UX research</li>
-        <li>🔸&nbsp;&nbsp; Animation</li>
-        <li>📢&nbsp;&nbsp; Visual design</li>
-        <li>🎲&nbsp;&nbsp; Hacky front-end dev</li>
+       <li>⭐&nbsp;&nbsp; Concepting</li>
+        <li>👓&nbsp;&nbsp; Wireframing</li>
+        <li>📚&nbsp;&nbsp; React Dev</li>
+        <li>📡&nbsp;&nbsp; REST API</li>
+        <li>📈&nbsp;&nbsp; D3 Data visualization</li>
+
       </ul>
   </div>
 

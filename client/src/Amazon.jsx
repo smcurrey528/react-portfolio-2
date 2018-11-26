@@ -28,21 +28,27 @@ class Amazon extends Component {
 
   <div class="two-thirds column">
     <span class="nugget">Overview</span>
-    <p><a href="http://www.airbnb.com" target="_blank">Airbnb</a> is a popular and widely known house-sharing app with over 200 million users around the world. I led and helped improve many parts of the holistic Evernote experience—from onboarding new users, to navigating and organizing content for current users, to completing checkout for new and existing customers. And now, I'm tackling the challenge of making Evernote Business the best product for teams. Brief, high-level case studies below:</p>
+    <p> When <a href="http://www.amazon.com" target="_blank">
+    Amazon</a> announced it's new East Coast headquarters coming to NYC, I decided
+    that I would explore recreating Amazon's website. However, Amazon's current design is very
+    overwhelming with too many things trying to grab your attention at once, so I decided to create a full stack web application
+    of Amazon using a simplified design. I used React on the front-end while applying Express, Node, and PostgreSQL on the back-end.</p>
   </div>
 
 
   <div class="one-third column">
     <span class="nugget">Hats worn</span>
     <ul class="list">
-        <li>⛈&nbsp;&nbsp; Concepting</li>
-        <li>🗺&nbsp;&nbsp; Wireframing</li>
-        <li>💬&nbsp;&nbsp; Copywriting</li>
-        <li>♻️&nbsp;&nbsp; Prototyping</li>
-        <li>👂🏽&nbsp;&nbsp; UX research</li>
-        <li>🔸&nbsp;&nbsp; Animation</li>
+        <li>💻&nbsp;&nbsp; React Front-end Dev</li>
+        <li>📤&nbsp;&nbsp; Backend Express Dev</li>
+        <li>✍&nbsp;&nbsp; Wireframing</li>
+        <li>💬&nbsp;&nbsp; PostgreSQL</li>
+        <li>🎁&nbsp;&nbsp; Shopify API</li>
+        <li>💸&nbsp;&nbsp; E-commerce Dev</li>
+        <li>🌺&nbsp;&nbsp; ReactStrap</li>
         <li>📢&nbsp;&nbsp; Visual design</li>
-        <li>🎲&nbsp;&nbsp; Hacky front-end dev</li>
+        <li>📈&nbsp;&nbsp; Project Management</li>
+
       </ul>
   </div>
 
