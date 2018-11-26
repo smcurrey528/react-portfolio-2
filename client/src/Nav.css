@@ -50,7 +50,8 @@ ul {
 .site-nav {
     position: relative;
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    padding-top: 10px;
     top: 0 !important;
     z-index: 1;
     display: table;
@@ -59,17 +60,19 @@ ul {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     margin-top: -30px;
+    height: 10px;
 }
 
 .site-menu-item {
     display: inline-block;
     margin: 0 2em;
     font-family: Karla, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #FFFFFF !important;
     letter-spacing: 0.2px;
     line-height: 16px;
     font-weight: bold;
+    padding: 20px;
 }
 
 .site-menu.site-menu-animated .site-menu-item a {
